@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Trex.Models.dep>
+    >
+
+@{
+    ViewData["Title"] = "Agenda Cita";
+
+
+}
+
+<h1> Agenda de Citas </h1>
+<body>
+    <h1>Agenda de Citas Hospitalarias</h1>
+    <form>
+        <label for"Nombre">Nombres y Apellidos del Paciente </label>
+        <input type="text" placeholder="Primer Nombre" name="Primer Nombre"><input type="text" placeholder="Segundo Nombre" name="Segundo Nombre"><input type="text" placeholder="Apellidos" name="Apellidos">
+
+    </form>
+    <br></br>
+    <form>
+        <label>Correo Electronico</label>
+        <input type="Text" placeholder="Correo" name="c">
+    </form>
+    <br></br>
+    <form>
+
+        <label>Nombre del Acompañante</label>
+        <input type="Text" placeholder="Nombre" name="d">
+        <input type="Text" placeholder="Apellido" name="f">
+
+    </form>
+    <br></br>
+    <form>
+
+        <label>Direccion</label>
+        <input type="text" placeholder="Direccion de la callle">
+
+    </form>
+    <br></br>
+    <form>
+        <label>          </label>
+        <input type="text" placeholder="Direccion de la calle 2">
+
+    </form>
+    <br></br>
+    <form>
+
+        <label>         </label>
+        <input type="text" placeholder="Ciudad">
+        <input type="text" placeholder="Estado/Provincia">
+
+    </form>
+    <br></br>
+
+    <form>
+
+        <input type="integer" placeholder="Codigo Postal">
+
+
+    </form>
+    <br></br>
+    <form>
+
+        <label>Numero de Telefono</label>
+        <input type="integer" placeholder="Codigo de area">
+        <input type="integer" placeholder="Numero">
+
+    </form>
+    <br></br>
+    <form>
+
+        <label>Numero de Whatsapp</label>
+        <input type="integer" placeholder="Codigo de area">
+        <input type="integer" placeholder="Numero">
+
+    </form>
+    <br></br>
+
+    <input type="button" height="20" width="60" placeholder="Agendar">
+</body>
